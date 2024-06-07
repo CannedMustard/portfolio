@@ -129,7 +129,23 @@ html {
      margin: auto;
      background-color: #f0cc04;
    }
+
+   #who-me {
+    padding: 65px 1rem 1rem 1rem;
+    text-align: center;
+    background-color: #f0cc04;
+    
+    width: 70%;
+    margin: auto;
+    max-width: 720px
+  }
   
+  #who-me div {
+    width: 80%;
+    aspect-ratio: 4 / 2;
+    margin: auto;
+  }
+
    .divider {
      display: flex;
      width: 100vw;
