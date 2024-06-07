@@ -134,16 +134,19 @@ html {
     padding: 65px 1rem 1rem 1rem;
     text-align: center;
     background-color: #f0cc04;
-    
-    width: 70%;
     margin: auto;
-    max-width: 720px
   }
   
   #who-me div {
-    width: 80%;
-    aspect-ratio: 4 / 2;
+    width: 100%;
     margin: auto;
+  }
+
+  #who-me p {
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    background-color: #f0cc04;
   }
 
    .divider {
