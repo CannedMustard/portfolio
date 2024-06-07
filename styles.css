@@ -1,0 +1,321 @@
+html {
+    font-family: cursive;
+  }
+  
+  
+  body {
+    padding: 0;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/0/0d/Bananas_on_sale.jpg) fixed no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  
+  
+  
+  header {
+    background-color: #cb0000;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    z-index: 99;
+  
+  }
+  
+  #goodfood1 {
+    margin: auto;
+    margin-left: 20px;
+    width: 50px;
+    height: 38px;
+  }
+  
+  #goodfood2, #goodfood3 {
+    width: 0;
+    height: 0;
+  }
+  
+  
+   header:hover img {
+      animation: wiggle .69s infinite;
+    }
+  
+  #navbar {
+    margin: auto;
+    width: 100%;
+  }
+  
+  #navbar ul {
+    width: 100%;
+    text-align: right;
+  }
+  
+  #navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: auto;
+    margin-right: 4rem;
+  }
+  #one, #two, #three {
+    color: #ffd95c;
+    text-decoration-line: none;
+    font-weight: bold;
+  }
+  
+  #one:hover, #two:hover, #three:hover {
+    color: #cb0000;
+    background-color: #ffd95c;
+    border-radius: 50%;
+    border: 10px solid #ffd95c;
+  }
+  
+  @keyframes wiggle {
+    25% {
+      rotate: 15deg;
+    }
+    50% {
+      rotate: 0deg;
+    }
+    75% {
+      rotate: -15deg;
+    }
+    100% {
+      rotate: 0deg;
+    }
+  }
+  
+  main {
+    position: relative;
+    width: 100vw;
+    left: -8px;
+  }
+  
+  #welcome-section {
+    padding: 65px 1rem 1rem 1rem;
+    text-align: center;
+    background-color: #f0cc04;
+    
+    width: 70%;
+    margin: auto;
+    max-width: 720px
+  }
+  
+  
+  #welcome-section h1 {
+    color: #cb0000;
+    font-size: 30px;
+  }
+  
+  #welcome-section h3 {
+    font-size: 16px;
+  
+  }
+  
+  #welcome-section div {
+     width: 80%;
+     aspect-ratio: 4 / 2;
+     margin: auto;
+   }
+  
+  #welcome-section img {
+     width: 100%;
+     height: 100%;
+   }
+  
+  #welcome-section p {
+     font-size: 12px;
+     width: 80%;
+     margin: auto;
+     background-color: #f0cc04;
+   }
+  
+   .divider {
+     display: flex;
+     width: 100vw;
+     background-color: #cb0000;
+     height: 65px;
+   }
+  
+   .divider img {
+     margin: auto;
+    width: 50px;
+    height: 38px;
+   }
+  
+    .divider:hover img {
+     animation: wiggle .69s infinite;
+   }
+  
+  
+  #projects {
+    display: grid;
+    grid-template: 4 / 2;
+    width: 100%;
+    background-color: #f0cc04;
+    padding-top: 65px;
+    text-align: center;
+    padding-bottom: 65px;
+    align-items: center;
+    
+  }
+  #projects h2 {
+    grid-area: 2 / 1 / span 1 / span 2;
+    font-size: 28px;
+  }
+  
+  .project-tile {
+    width:50%;
+    text-align: center;
+    justify-self: center;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .project-tile img {
+    width: 100%;
+    max-width: 356px;
+  }
+  
+  .project-tile a {
+    color: #cb0000;
+    text-decoration-line: none;
+  }
+  
+  .project-tile a:hover {
+    color: black;
+  }
+  
+  
+  #pt1 {
+    grid-area: 3 / 1 / span 1 / span 1;
+  } 
+  
+  #pt2 {
+    grid-area: 3 / 2 / span 1 / span 1;
+  }
+  
+  #pt3 {
+    grid-area: 4 / 1 / span 1 / span 1;
+  }
+  
+  #pt4 {
+    grid-area: 4 / 2 / span 1 / span 1;
+  }
+  
+  #My-Info {
+    padding-top: 65px;
+    width: 100%;
+    padding-bottom: 65px;
+  }
+  
+  .info {
+    width: 50%;
+    background-color: #cb0000;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    color: #ffd95c;
+    border-radius: 20px;
+  }
+  
+  .info a {
+    font-size: 36px;
+    color: #ffd95c;
+  }
+  
+  .info div{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: .5rem;
+  }
+  
+  .info div i {
+    position: relative;
+    top: 7px;
+  }
+  
+  
+  .info div:hover {
+    color: black;
+    background-color: #ffd95c;
+    border-radius: 50%;
+  }
+  
+  footer {
+    position: relative;
+    width: 100vw;
+    background-color: #ffd95c;
+    padding: 1rem;
+    left: -8px;
+    bottom: -8px;
+  }
+  
+  footer p {
+    margin: auto;
+    width: 75%
+  }
+  
+  @media only screen and (max-width: 660px) {
+    header {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 615px) {
+    header {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 570px) {
+    header {
+      display: grid;
+      grid-template: 2 / 3;
+      font-size: 12px;
+      height: 80px;
+    }
+    #goodfood2, #goodfood3, #goodfood1 {
+    margin: auto;
+    width: 50px;
+    height: 38px;
+  }
+    #goodfood2 {
+      grid-area: 2 / 2;
+    }
+    #goodfood2 {
+      grid-area: 2 / 3;
+    }
+    header #navbar {
+      grid-area: 1 / 1 / span 1 / span 3;
+    }
+    header ul {
+      padding: 0;
+    }
+    #navbar ul{
+      display: flex;
+    }
+    #navbar ul li {
+      margin-right: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 680px) {
+  
+    #projects{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .project-tile {
+      margin: auto;
+    }
+  
+  
+  
+  }
+  
+  
+  
