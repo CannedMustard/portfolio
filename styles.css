@@ -292,7 +292,7 @@ html {
     header {
       display: grid;
       grid-template: 2 / 3;
-      font-size: 12px;
+      font-size: 10px;
       height: 80px;
     }
     #goodfood2, #goodfood3, #goodfood1 {
