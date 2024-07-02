@@ -87,8 +87,9 @@ html {
   
   main {
     position: relative;
-    width: 100vw;
+    width: 100dvw;
     left: -8px;
+
   }
   
   #welcome-section {
