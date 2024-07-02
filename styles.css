@@ -152,7 +152,7 @@ html {
 
    .divider {
      display: flex;
-     width: 100vw;
+     width: 100dvw;
      background-color: #cb0000;
      height: 65px;
    }
@@ -265,7 +265,7 @@ html {
   
   footer {
     position: relative;
-    width: 100vw;
+    width: 100dvw;
     background-color: #ffd95c;
     padding: 1rem;
     left: -8px;
